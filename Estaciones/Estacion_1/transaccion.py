@@ -5,7 +5,6 @@ class Transaccion:
         self._tipo = tipo.strip().upper()
         self._monto = float(monto)
 
-    # Encapsulamiento con propiedades simples (getters y setters)
     @property
     def cliente_id(self):
         return self._cliente_id
@@ -49,7 +48,7 @@ class ProcesadorTransaccionesPOO:
                             cliente_id = partes[0]
                             tipo = partes[1]
                             monto = partes[2]
-                            # Instanciamos el objeto
+
                             tx = Transaccion(cliente_id, tipo, monto)
                             self.lista_transacciones.append(tx)
             print(f"[Info] Datos cargados exitosamente desde '{self.nombre_archivo}'.")
@@ -90,7 +89,7 @@ class ProcesadorTransaccionesPOO:
 
 
 if __name__ == "__main__":
-    # Flujo ejecutable principal
+
     procesador = ProcesadorTransaccionesPOO("transacciones.txt")
     procesador.cargar_datos_desde_txt()
     procesador.generar_informe()
