@@ -1,9 +1,3 @@
-"""
-transaccion_poo_v1.py
-Migración de Programación Estructurada a Objetos (Semanas 1 y 2).
-Sistemas Fintech: Lectura de transacciones e informe básico.
-"""
-
 class Transaccion:
     """Clase que representa una transacción financiera básica."""
     def __init__(self, cliente_id, tipo, monto):
