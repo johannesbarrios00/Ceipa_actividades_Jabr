@@ -1,0 +1,4 @@
+Ingreso,Salario mensual,3500000
+Gasto,Compra de supermercado,250000
+Gasto,Pago de servicios públicos,180000
+Ingreso,Venta de servicio freelance,800000

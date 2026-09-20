@@ -1,0 +1,22 @@
+[
+    {
+        "tipo": "Ingreso",
+        "descripcion": "Salario mensual",
+        "monto": 3500000.0
+    },
+    {
+        "tipo": "Gasto",
+        "descripcion": "Compra de supermercado",
+        "monto": 250000.0
+    },
+    {
+        "tipo": "Gasto",
+        "descripcion": "Pago de servicios públicos",
+        "monto": 180000.0
+    },
+    {
+        "tipo": "Ingreso",
+        "descripcion": "Venta de servicio freelance",
+        "monto": 800000.0
+    }
+]
